@@ -1,0 +1,15 @@
+This directory is for project-specific libraries.
+
+PlatformIO will install the following libraries automatically based on platformio.ini:
+
+- Firebase Arduino Client Library for ESP8266 and ESP32
+- MPU6050 library
+- TinyGPSPlus
+- ArduinoJson
+- NTPClient
+- EspSoftwareSerial
+
+You can also add custom libraries to this directory if needed.
+
+For more information about library management in PlatformIO:
+https://docs.platformio.org/en/latest/librarymanager/
