@@ -1,0 +1,45 @@
+{
+  "crash_detection": {
+    "accel_threshold": 3.0,
+    "gyro_threshold": 250.0,
+    "impact_duration": 500,
+    "consecutive_readings": 3,
+    "recovery_time": 5000,
+    "proximity_threshold": 30.0,
+    "jerk_threshold": 10.0,
+    "severe_jerk_threshold": 20.0,
+    "severe_accel_threshold": 5.0,
+    "severe_gyro_threshold": 400.0
+  },
+  "sensors": {
+    "vibration_pin": 34,
+    "trig_pin": 5,
+    "echo_pin": 18,
+    "gps_rx_pin": 16,
+    "gps_tx_pin": 17,
+    "sda_pin": 21,
+    "scl_pin": 22
+  },
+  "timing": {
+    "sensor_read_interval": 100,
+    "firebase_send_interval": 5000,
+    "debug_print_interval": 2000,
+    "gps_baud_rate": 9600,
+    "serial_baud_rate": 115200
+  },
+  "mpu6050": {
+    "accel_range": 2,
+    "gyro_range": 1,
+    "dlpf_mode": 3
+  },
+  "ntp": {
+    "server": "pool.ntp.org",
+    "time_offset": 19800
+  },
+  "firebase": {
+    "sensors_path": "Servo1/sensors/",
+    "emergency_path": "Servo1/emergency/",
+    "crash_status_path": "Servo1/crashStatus",
+    "emergency_active_path": "Servo1/emergencyActive"
+  }
+}
