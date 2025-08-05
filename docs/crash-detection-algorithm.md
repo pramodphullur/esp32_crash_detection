@@ -323,38 +323,6 @@ void tuneBasedOnFeedback(bool wasActualCrash, int detectedSeverity) {
 }
 ```
 
-## Troubleshooting Algorithm Issues
-
-### High False Positive Rate
-
-**Symptoms**: Frequent alerts during normal driving
-
-**Solutions**:
-1. Increase base thresholds
-2. Require more factors for positive detection
-3. Extend consecutive reading requirements
-4. Analyze driving patterns and adjust accordingly
-
-### Low Detection Rate
-
-**Symptoms**: Missing actual crashes
-
-**Solutions**:
-1. Decrease thresholds
-2. Reduce required factor count
-3. Add additional sensor modalities
-4. Improve sensor calibration
-
-### Delayed Detection
-
-**Symptoms**: Alerts arriving too late
-
-**Solutions**:
-1. Reduce sensor reading intervals
-2. Optimize algorithm processing time
-3. Prioritize severe crash detection
-4. Implement interrupt-based sensing
-
 ## Future Improvements
 
 ### Enhanced Algorithms
