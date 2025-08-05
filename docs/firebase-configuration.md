@@ -6,7 +6,7 @@ This guide explains how to set up Firebase Realtime Database for the ESP32 Crash
 
 - Google account
 - Basic understanding of Firebase console
-- ESP32 crash detection hardware setup completed
+- Completed hardware setup
 
 ## Step 1: Create Firebase Project
 
